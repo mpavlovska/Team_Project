@@ -29,7 +29,7 @@ const Filter = () => {
 
   return (
     <S.Container>
-      <S.Title>Вид на производ:</S.Title>
+      <S.Title>Пребарај по категорија:</S.Title>
       {createCheckboxes()}
     </S.Container>
   );

@@ -55,14 +55,14 @@ const Cart = () => {
               <S.SubPriceValue>{`${formatPrice(
                 total.totalPrice,
                 total.currencyId
-              )} ${total.currencyFormat} `}</S.SubPriceValue>
+              )} ден. `}</S.SubPriceValue>
               <S.SubPriceInstallment>
                 {total.installments ? (
                   <span>
                     {`ПО ЦЕНА ОД ${total.installments} x  ${formatPrice(
                       total.totalPrice / total.installments,
                       total.currencyId
-                    )} ${total.currencyFormat}`}
+                    )} ден. `}
                   </span>
                 ) : null}
               </S.SubPriceInstallment>
